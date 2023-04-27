@@ -34,7 +34,7 @@ namespace webappsql.Certification
             // _builder.InitialCatalog = db_database;
            //  return new SqlConnection(_builder.ConnectionString);
         }
-                //public List<Offerings> GetCourses(string VendorName, string CourseID, string CourseName, int Price, int DiscountPercent)
+                //public List<Offerings> GetCourses(string VendorName, string CourseID, string CourseName, int Price, int DiscountPercent )
         public List<Offerings> GetCourses()
         {
             List<Offerings> _course_lst = new List<Offerings>();
