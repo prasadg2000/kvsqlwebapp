@@ -16,7 +16,7 @@ namespace webappsql.Certification
             {
                 TokenCredential tokenCredential = new DefaultAzureCredential();
 
-                string KeyVaultUrl = "https://kv1apac2023.vault.azure.net/";
+                string KeyVaultUrl = "https://kvcars2023.vault.azure.net/";
                 string secretName = "dbconnectstring";
 
                 SecretClient secretClient = new SecretClient(new Uri(KeyVaultUrl), tokenCredential);
