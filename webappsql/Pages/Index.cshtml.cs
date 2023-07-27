@@ -6,7 +6,7 @@ namespace webappsql.Pages;
 
 public class IndexModel : PageModel
 {
-    public List<Offerings>? course;
+    public List<Offerings> course;
 
     //public void OnGet(VendorServices vendorServices)
     public void OnGet()
