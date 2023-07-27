@@ -1,4 +1,6 @@
-﻿namespace webappsql.Vendors
+﻿using System.Reflection.PortableExecutable;
+
+namespace webappsql.Vendors
 {
     public class Offerings
     {
@@ -9,8 +11,11 @@
             public string CourseName { get; set; }
 
             public string Price { get; set; }
-
+        
             public int DiscountPercent { get; set; }
+
+            public string ProductImage { get; set; }
+
 
     }
 }
