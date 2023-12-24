@@ -41,7 +41,7 @@ namespace webappsql.Certification
 
             SqlConnection _conn = GetConnection();       
 
-            string _statement = "SELECT VendorName,CourseID,CourseName,Price,DiscountPercent,ProductImage from Courses";
+            string _statement = "SELECT VendorName,CourseID,CourseName,Price,DiscountPercent from Courses";
 
             _conn.Open();
 
@@ -59,7 +59,7 @@ namespace webappsql.Certification
                         CourseName = _reader.GetString(2),
                         Price = _reader.GetString(3),
                         DiscountPercent = _reader.GetInt32(4),
-                        ProductImage = _reader.GetString(5),
+                       // ProductImage = _reader.GetString(5),
                     };
 
                     _course_lst.Add(course);
