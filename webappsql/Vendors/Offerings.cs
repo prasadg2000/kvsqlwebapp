@@ -14,7 +14,7 @@ namespace webappsql.Vendors
         
             public int DiscountPercent { get; set; }
 
-            public string ProductImage { get; set; }
+       
 
 
     }
